@@ -1,0 +1,21 @@
+header {
+    background-color: #90b7de; /* Укажите цвет фона */
+    color: #091827; /* Укажите цвет текста */
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; /* Зафиксируйте шапку */
+    top: 0;
+    width: 100%;
+  }
+  
+  nav {
+    display: inline; /* Выровняйте ссылки по горизонтали */
+    justify-content: center;
+    gap: 15px; /* Укажите расстояние между ссылками */
+  }
+  
+  nav a {
+    color: #04213e; /* Укажите цвет ссылок */
+    text-decoration: none; /* Уберите подчеркивание */
+    padding: 10px;
+  }
