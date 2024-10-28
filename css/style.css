@@ -31,3 +31,21 @@ header {
     text-align: center; /* Выровняйте текст */
     color: white; /* Укажите цвет текста */
   }
+
+  .about {
+    padding: 20px 20px;
+    display: flex; /* Используйте Flexbox */
+    justify-content: center; /* Выровняйте содержимое */
+    gap: 10px; /* Укажите расстояние между элементами */
+  }
+
+  .about-text {
+    flex: 1; /* Задайте, как текст будет занимать пространство */
+    min-width: 300px;
+  }
+  
+  .about img {
+    flex: 2;
+    max-width: 500px; /* Установите максимальную ширину изображения */
+    border-radius: 20px; /* Добавьте скругленные углы */
+  }
