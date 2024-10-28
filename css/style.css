@@ -19,3 +19,15 @@ header {
     text-decoration: none; /* Уберите подчеркивание */
     padding: 10px;
   }
+
+  .hero {
+    background-image: url('/image/mounPic.webp'); /* Добавьте ссылку на изображение */
+    background-size: cover; /* Укажите размер фона */
+    background-position: center; /* Позиционируйте изображение */
+    height: 100vh; /* Укажите высоту секции */
+    display: flex; /* Используйте Flexbox */
+    justify-content: center; /* Выровняйте элементы по горизонтали */
+    align-items: center; /* Выровняйте элементы по вертикали */
+    text-align: center; /* Выровняйте текст */
+    color: white; /* Укажите цвет текста */
+  }
