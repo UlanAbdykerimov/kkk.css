@@ -49,3 +49,23 @@ header {
     max-width: 500px; /* Установите максимальную ширину изображения */
     border-radius: 20px; /* Добавьте скругленные углы */
   }
+
+  .services {
+    background-color: white; /* Цвет фона */
+    padding: 20px 20px;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex; /* Используйте Flexbox */
+    justify-content: center; /* Выровняйте карточки */
+    gap: 10px; /* Расстояние между карточками */
+  }
+  
+  .card {
+    background-color: white; /* Цвет фона карточки */
+    padding: 20px;
+    width: 500px; /* Укажите ширину карточки */
+    border-radius: 20px; /* Скруглите углы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Добавьте тень */
+  }
