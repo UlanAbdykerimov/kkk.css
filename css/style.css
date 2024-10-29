@@ -76,3 +76,17 @@ header {
     text-align: center; /* Выравнивание текста */
     padding: 15px;
   }
+
+  @media (max-width: 500px) {
+    .hero h1 {
+      font-size: 2rem; /* Уменьшите размер текста */
+    }
+  
+    .hero p {
+      font-size: 2rem;
+    }
+  
+    .about, .cards {
+      flex-direction: column; /* Сделайте элементы вертикальными */
+    }
+  }
